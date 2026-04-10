@@ -188,7 +188,7 @@ export const DashboardOverview: React.FC = () => {
       <div>
         <div className="flex items-center justify-between mb-4">
           <h3 className="font-bold text-bowls-green text-lg">Pool Standing</h3>
-          <Link to="/dashboard/pool" className="text-sm text-bowls-green font-medium hover:underline">
+          <Link to={`/dashboard/pool/${mockPool.id}`} className="text-sm text-bowls-green font-medium hover:underline">
             Full table →
           </Link>
         </div>

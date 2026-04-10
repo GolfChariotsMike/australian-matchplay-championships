@@ -26,6 +26,7 @@ function App() {
             <Route index element={<DashboardOverview />} />
             <Route path="matches" element={<MatchesPage />} />
             <Route path="matches/:id" element={<MatchDetailPage />} />
+            <Route path="pool" element={<Navigate to="/dashboard/pool/pool-1" replace />} />
             <Route path="pool/:id" element={<PoolPage />} />
             <Route path="profile" element={<ProfilePage />} />
           </Route>
